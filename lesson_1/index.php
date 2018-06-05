@@ -1,6 +1,7 @@
 <?php
     $header = '<h1>minimalistica</h1>';
-    $title =  'Free CSS Templates';
+    $foot_title =  '"Free CSS Templates"';
+    $head_title =  'minimalistica';
 ?>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -9,7 +10,7 @@
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <meta name="author" content="Luka Cvrk (www.solucija.com)" />
         <link rel="stylesheet" href="css/main.css" type="text/css" />
-        <title>minimalistica</title>
+        <title><?php echo $head_title ?></title>
     </head>
 
     <body>
@@ -47,7 +48,7 @@
                 </div>
                 <div id="footer">
                     <p>Copyright &copy; <em>minimalistica</em> &middot; Design: Luka Cvrk
-                        <?php echo date("Y ");?>, <a href="http://www.solucija.com/" title=<?php echo $title?>>Solucija</a></p>
+                        <?php echo date("Y ");?>, <a href="http://www.solucija.com/" title=<?php echo $foot_title ?>>Solucija</a></p>
                 </div>
         </div>
         <!----------------------------------------------------------------------------------------------------->
