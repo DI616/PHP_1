@@ -1,7 +1,6 @@
 <?php
     $header = '<h1>minimalistica</h1>';
     $title =  'Free CSS Templates';
-    $year = '2018';
 ?>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -48,7 +47,7 @@
                 </div>
                 <div id="footer">
                     <p>Copyright &copy; <em>minimalistica</em> &middot; Design: Luka Cvrk
-                        <?php echo $year?>, <a href="http://www.solucija.com/" title=<?php echo $title?>>Solucija</a></p>
+                        <?php echo date("Y ");?>, <a href="http://www.solucija.com/" title=<?php echo $title?>>Solucija</a></p>
                 </div>
         </div>
         <!----------------------------------------------------------------------------------------------------->
