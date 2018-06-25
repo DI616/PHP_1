@@ -1,0 +1,61 @@
+    .adm {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    
+    a
+    /*form*/ {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        display: block;
+        margin: 15px;
+    }
+    
+    /*form {
+        border: 2px dotted black;
+    }*/
+    
+    span {
+        font-size: 140px;
+        text-align: center;
+        display: block;
+        font-weight: bold;
+        cursor: pointer;
+        height: 140px;
+    }
+    
+    span:hover {
+        color: darkred;
+        background-color: lightgray;
+    }
+    
+    /*#file {
+        display: none;
+    }*/
+    
+    /*.submit {
+        width: 100%;
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+        background-color: #fff;
+        border: none;
+        font-size: 26px;
+    }
+    
+    .submit:hover {
+        color: darkred;
+        background-color: lightgray;
+    }*/
+    
+   /* .hidden {
+        display: none !important;
+    }*/
+    
+    .admin {
+        width: 60px;
+        height: 20px;
+        display: inline-block;
+    }
